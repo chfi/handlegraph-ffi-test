@@ -8,9 +8,7 @@ edition = "2018"
 
 [dependencies]
 gfa = "0.8"
-# gfa = { path = "../rs-gfa" }
-handlegraph = { path = "../rs-handlegraph" }
-# bytemuck_derive = "1.0.0"
+handlegraph = { git = "https://github.com/chfi/rs-handlegraph", rev = "dc2e8b010e96a6e4554c2113df4ad540da05f8ef" }
 libc = "0.2"
 
 

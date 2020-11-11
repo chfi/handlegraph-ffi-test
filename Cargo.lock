@@ -379,6 +379,7 @@ dependencies = [
 [[package]]
 name = "handlegraph"
 version = "0.5.0"
+source = "git+https://github.com/chfi/rs-handlegraph?rev=dc2e8b010e96a6e4554c2113df4ad540da05f8ef#dc2e8b010e96a6e4554c2113df4ad540da05f8ef"
 dependencies = [
  "bio",
  "bstr",
